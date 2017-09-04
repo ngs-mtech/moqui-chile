@@ -97,10 +97,10 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="CustomerEndUser" localized="Cliente - Usuario Final"/>
     <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="CustomerPlacing" localized="Cliente - Adquiriente"/>
     <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="CustomerShipTo" localized="Cliente - Despachar a"/>
-    <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="Vendor" localized="Proveedor"/>
-    <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="VendorBillFrom" localized="Proveedor - Facturar de"/>
-    <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="VendorShipFrom" localized="Proveedor - Despachar de"/>
-    <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="VendorPickUpFrom" localized="Proveedor - Pickear de"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="Vendor" localized="Vendedor"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="VendorBillFrom" localized="Vendedor - Facturar de"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="VendorShipFrom" localized="Vendedor - Despachar de"/>
+    <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="VendorPickUpFrom" localized="Vendedor - Pickear de"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="es" pkValue="PcntOnline" localized="Acceso Online"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="es" pkValue="PcntDownload" localized="Descarga Digital"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.Enumeration" fieldName="description" locale="es" pkValue="PcntEmail" localized="E-mail de fulfillment"/>
@@ -142,7 +142,7 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es"
                                       pkValue="OrderRequested" localized="Cotización Solicitada"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es"
-                                      pkValue="OrderProposed" localized="Propuesta por Proveedor"/>
+                                      pkValue="OrderProposed" localized="Propuesta por Vendedor"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es"
                                       pkValue="OrderPlaced" localized="Colocada"/>
     <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es"
@@ -367,6 +367,15 @@ along with this software (see the LICENSE.md file). If not, see
     <moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="es" pkValue="ProjectManager" localized="Jefe de Proyecto"/>
     <moqui.basic.LocalizedEntityField entityName="mantle.humanres.position.EmplPositionClass" fieldName="title" locale="es" pkValue="GeneralManager" localized="Gerente General"/>
     <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es" pkValue="_NA_" localized="No Aplica"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es" pkValue="PmntAuthorized" localized="Autorizado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es" pkValue="PmntCancelled" localized="Cancelado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es" pkValue="PmntConfirmed" localized="Confirmado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es" pkValue="PmntDeclined" localized="Rechazado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es" pkValue="PmntDelivered" localized="Entregado"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es" pkValue="PmntPromised" localized="Comprometido"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es" pkValue="PmntProposed" localized="Propuesto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es" pkValue="PmntRefunded" localized="Devuelto"/>
+    <moqui.basic.LocalizedEntityField entityName="moqui.basic.StatusItem" fieldName="description" locale="es" pkValue="PmntVoid" localized="Nulo"/>
 
     <moqui.basic.LocalizedEntityField entityName="mantle.party.RoleType" fieldName="description" locale="es"
                                       pkValue="Account" localized="Cuenta"/>
